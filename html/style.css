@@ -1,0 +1,87 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+	background-color: transparent !important;
+	color: transparent;
+}
+
+.template,
+.notification {
+	display: none;
+}
+
+.notif-container {
+	width: fit-content;
+	max-width: 24%;
+	position: absolute;
+	display: flex;
+	flex-flow: row-reverse;
+	flex-wrap: wrap;
+	z-index: 999;
+}
+
+.notification {
+	padding: 7px;
+	width: fit-content;
+	border-radius: 3px;
+	margin: 6px;
+	font: caption;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+}
+
+.warning {
+	background-color: rgba(255, 136, 0, 0.8);
+	color: #fff;
+}
+  
+.normal {
+	background-color: rgba(47, 92, 115, 0.8);
+	color: #fff;
+}
+  
+.error {
+	background-color: rgba(191, 36, 36, 0.8);
+	color: #fff;
+}
+  
+.system {
+	background-color: rgba(67, 57, 111, 0.8);
+	color: #fff;
+}
+
+.success {
+	background-color: rgba(34, 139, 34, 0.8);
+	color: #fff;
+}
+
+.top-right {
+	right: 0;
+	top: 0;
+}
+
+.top-left {
+	left: 0;
+	top: 0;
+}
+
+.top-center {
+	right: 50%;
+	top: 0;
+}
+
+.bottom-right {
+	right: 0;
+	bottom: 0;
+}
+
+.bottom-left {
+	left: 0;
+	bottom: 0;
+}
+
+.bottom-center {
+	right: 50%;
+	bottom: 0;
+}
